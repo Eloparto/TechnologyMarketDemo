@@ -17,22 +17,19 @@ public class Main {
 		productManager.showProducts(products);
 		
 		
-		System.out.println("--------------------------------------------------------------------------------------------------------------");
+		
 		//ELOPARTO
 		productManager.addToCart(product1);
 		productManager.purchase(product1);
 		
-		System.out.println("-------------------------------------------------------");
 
 		productManager.addToCart(product2);
 		productManager.purchase(product2);
 		
-		System.out.println("-------------------------------------------------------");
 		
 		productManager.addToCart(product3);
 		productManager.purchase(product3);
 		
-		System.out.println("-------------------------------------------------------");
 		
 	}
 
